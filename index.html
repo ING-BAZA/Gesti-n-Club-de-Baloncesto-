@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión Club de Baloncesto</title>
+ 
+</head>
+<body>
+  <div class="sidebar">
+    <h2>🏀 Club Basket</h2>
+    <nav>
+      <p>Panel</p>
+      <p>Jugadores</p>
+      <p>Estadísticas</p>
+      <p>Partidos</p>
+      <p>Empleados</p>
+      <p>Socios</p>
+      <p>Pagos</p>
+      <p>Configuración</p>
+    </nav>
+  </div>
+
+  <div class="main">
+    <h1>Bienvenido, Administrador</h1>
+
+    <div class="cards">
+      <div class="card">
+        <strong>Próximo partido</strong>
+        <p>Club A vs Club B</p>
+        <p>10/06 - 18:00</p>
+      </div>
+      <div class="card">
+        <strong>Jugador destacado</strong>
+        <p>Juan Pérez - 23 pts / 12 reb / 5 ast</p>
+      </div>
+      <div class="card">
+        <strong>Pagos pendientes</strong>
+        <p>3 cuotas</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <strong>Estadísticas por jugador</strong><br>
+      <select class="select">
+        <option value="juan">Juan Pérez</option>
+        <option value="mario">Mario Torres</option>
+      </select>
+      <div class="tab-content">
+        <p>Pts: 23 | Ast: 5 | Reb: 12</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <strong>Estadísticas por partido</strong><br>
+      <select class="select">
+        <option value="a_b">A vs B - 10/05</option>
+        <option value="c_d">C vs D - 17/05</option>
+      </select>
+      <div class="tab-content">
+        <p>Marcador: 88 - 75</p>
+        <p>Detalles: ...</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <strong>Pasarela de pago</strong><br>
+      <input type="text" placeholder="Nombre del socio">
+      <p>Cuota mensual junio - $40</p>
+      <select class="select">
+        <option value="tarjeta">Tarjeta</option>
+        <option value="transferencia">Transferencia</option>
+        <option value="paypal">PayPal</option>
+      </select><br>
+      <button>Pagar ahora</button>
+    </div>
+  </div>
+</body>
+</html>
